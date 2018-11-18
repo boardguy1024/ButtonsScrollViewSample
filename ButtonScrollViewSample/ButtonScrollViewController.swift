@@ -172,22 +172,11 @@ class ButtonScrollViewController: UIViewController, InstantiableFromStoryboard {
             let colorHex = self.viewModel.buttons[currentPage].imageColorHex
             self.iconBackGroundView.backgroundColor = UIColor(hex: colorHex)
         
-//            if self.viewModel.direction == .Left && currentPage == 2 {
-//                self.buttons[3].activeIconImageView.alpha = 0
-//                self.buttons[3].iconImageView.alpha = 1
-//                return
-//            }
-//
-//            self.buttons.enumerated().forEach { index, button in
-//                if (currentPage) == index {
-//                    button.activeIconImageView.alpha = 0
-//                    button.iconImageView.alpha = 1
-//                }
-//                else {
-//                    button.activeIconImageView.alpha = 1
-//                    button.iconImageView.alpha = 0
-//                }
-//            }
+            let whiteIcon = UIImage(imageLiteralResourceName: self.viewModel.buttons[currentPage].imageName)
+            let colorImageView = UIImageView()
+            colorImageView.image = whiteIcon.withRenderingMode(.alwaysTemplate)
+            colorImageView.tintColor = UIColor(hex: self.viewModel.buttons[currentPage].imageColorHex)
+            
         })
     }
     

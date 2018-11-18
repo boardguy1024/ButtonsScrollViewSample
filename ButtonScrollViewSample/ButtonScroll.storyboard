@@ -20,7 +20,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wX5-Oh-E8U">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.90823286802030456" green="0.90823286802030456" blue="0.90823286802030456" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" restorationIdentifier="ButtonScrollViewController" translatesAutoresizingMaskIntoConstraints="NO" id="of9-bE-Bpt">
                                 <rect key="frame" x="141.5" y="28" width="92" height="40"/>
