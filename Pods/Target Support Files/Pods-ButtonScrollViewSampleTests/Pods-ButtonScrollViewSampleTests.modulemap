@@ -1,0 +1,6 @@
+framework module Pods_ButtonScrollViewSampleTests {
+  umbrella header "Pods-ButtonScrollViewSampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

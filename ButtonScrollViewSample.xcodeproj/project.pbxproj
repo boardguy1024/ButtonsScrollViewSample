@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		555DF3C002BF8362FE4F15E2 /* Pods_ButtonScrollViewSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39EEC96B42F4ABA63059F6F /* Pods_ButtonScrollViewSampleTests.framework */; };
+		620664FBCD93945F9F9419FA /* Pods_ButtonScrollViewSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6A1CBB916E51724E07C2 /* Pods_ButtonScrollViewSampleUITests.framework */; };
+		6CC15AD221A150B0006F75F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC15AD121A150AF006F75F6 /* Assets.xcassets */; };
 		6CE89862219D158C007593AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89861219D158C007593AB /* AppDelegate.swift */; };
 		6CE89864219D158C007593AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89863219D158C007593AB /* ViewController.swift */; };
 		6CE89867219D158C007593AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE89865219D158C007593AB /* Main.storyboard */; };
-		6CE89869219D158E007593AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE89868219D158E007593AB /* Assets.xcassets */; };
 		6CE8986C219D158E007593AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE8986A219D158E007593AB /* LaunchScreen.storyboard */; };
 		6CE89877219D158E007593AB /* ButtonScrollViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89876219D158E007593AB /* ButtonScrollViewSampleTests.swift */; };
 		6CE89882219D158E007593AB /* ButtonScrollViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89881219D158E007593AB /* ButtonScrollViewSampleUITests.swift */; };
+		6CE89890219D15FB007593AB /* ButtonScroll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE8988F219D15FB007593AB /* ButtonScroll.storyboard */; };
+		6CE89892219D16AB007593AB /* ButtonScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89891219D16AB007593AB /* ButtonScrollViewController.swift */; };
+		6CE89894219D19CE007593AB /* InstantiableFromStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89893219D19CE007593AB /* InstantiableFromStoryboard.swift */; };
+		6CE89897219D1A70007593AB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89896219D1A70007593AB /* Extensions.swift */; };
+		6CE8989A219D1DA4007593AB /* ButtonScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE89899219D1DA4007593AB /* ButtonScrollViewModel.swift */; };
+		6CE8989D219D233E007593AB /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE8989C219D233E007593AB /* ButtonView.xib */; };
+		6CE8989F219D2354007593AB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE8989E219D2354007593AB /* ButtonView.swift */; };
+		D30480262516CB457A1C9FA7 /* Pods_ButtonScrollViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE473B630112CB430DD5ABB /* Pods_ButtonScrollViewSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF7E9FFEFFE65F788102939 /* Pods-ButtonScrollViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonScrollViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonScrollViewSample/Pods-ButtonScrollViewSample.release.xcconfig"; sourceTree = "<group>"; };
+		10A0C5A904C96674BFE4B268 /* Pods-ButtonScrollViewSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonScrollViewSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonScrollViewSampleUITests/Pods-ButtonScrollViewSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		363A6A1CBB916E51724E07C2 /* Pods_ButtonScrollViewSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonScrollViewSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D8A3AA4E157AA1E59E2616 /* Pods-ButtonScrollViewSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonScrollViewSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonScrollViewSampleUITests/Pods-ButtonScrollViewSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CC15AD121A150AF006F75F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CE8985E219D158C007593AB /* ButtonScrollViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonScrollViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE89861219D158C007593AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CE89863219D158C007593AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CE89866219D158C007593AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6CE89868219D158E007593AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CE8986B219D158E007593AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CE8986D219D158E007593AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CE89872219D158E007593AB /* ButtonScrollViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonScrollViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +61,18 @@
 		6CE8987D219D158E007593AB /* ButtonScrollViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonScrollViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE89881219D158E007593AB /* ButtonScrollViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScrollViewSampleUITests.swift; sourceTree = "<group>"; };
 		6CE89883219D158E007593AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE8988F219D15FB007593AB /* ButtonScroll.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonScroll.storyboard; sourceTree = "<group>"; };
+		6CE89891219D16AB007593AB /* ButtonScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScrollViewController.swift; sourceTree = "<group>"; };
+		6CE89893219D19CE007593AB /* InstantiableFromStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantiableFromStoryboard.swift; sourceTree = "<group>"; };
+		6CE89896219D1A70007593AB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6CE89899219D1DA4007593AB /* ButtonScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScrollViewModel.swift; sourceTree = "<group>"; };
+		6CE8989C219D233E007593AB /* ButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
+		6CE8989E219D2354007593AB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		9DE473B630112CB430DD5ABB /* Pods_ButtonScrollViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonScrollViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EA12A767D98FD84CA3C5A3 /* Pods-ButtonScrollViewSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonScrollViewSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonScrollViewSampleTests/Pods-ButtonScrollViewSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B65624947A96DC80086296E9 /* Pods-ButtonScrollViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonScrollViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonScrollViewSample/Pods-ButtonScrollViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E060FB46B754C1FB2626B857 /* Pods-ButtonScrollViewSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonScrollViewSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonScrollViewSampleTests/Pods-ButtonScrollViewSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F39EEC96B42F4ABA63059F6F /* Pods_ButtonScrollViewSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonScrollViewSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30480262516CB457A1C9FA7 /* Pods_ButtonScrollViewSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555DF3C002BF8362FE4F15E2 /* Pods_ButtonScrollViewSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +96,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620664FBCD93945F9F9419FA /* Pods_ButtonScrollViewSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53DEE1B814FB7B6B8B4961F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B65624947A96DC80086296E9 /* Pods-ButtonScrollViewSample.debug.xcconfig */,
+				0EF7E9FFEFFE65F788102939 /* Pods-ButtonScrollViewSample.release.xcconfig */,
+				E060FB46B754C1FB2626B857 /* Pods-ButtonScrollViewSampleTests.debug.xcconfig */,
+				A8EA12A767D98FD84CA3C5A3 /* Pods-ButtonScrollViewSampleTests.release.xcconfig */,
+				40D8A3AA4E157AA1E59E2616 /* Pods-ButtonScrollViewSampleUITests.debug.xcconfig */,
+				10A0C5A904C96674BFE4B268 /* Pods-ButtonScrollViewSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CC15AD521A15159006F75F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6CE89855219D158C007593AB = {
 			isa = PBXGroup;
 			children = (
+				6CC15AD121A150AF006F75F6 /* Assets.xcassets */,
 				6CE89860219D158C007593AB /* ButtonScrollViewSample */,
 				6CE89875219D158E007593AB /* ButtonScrollViewSampleTests */,
 				6CE89880219D158E007593AB /* ButtonScrollViewSampleUITests */,
 				6CE8985F219D158C007593AB /* Products */,
+				53DEE1B814FB7B6B8B4961F0 /* Pods */,
+				EDC781CA420BA5C54C3E33D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +149,16 @@
 		6CE89860219D158C007593AB /* ButtonScrollViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				6CC15AD521A15159006F75F6 /* Models */,
+				6CE89895219D1A59007593AB /* Extensions */,
+				6CE8989B219D2323007593AB /* Views */,
+				6CE89898219D1D92007593AB /* ViewModels */,
 				6CE89861219D158C007593AB /* AppDelegate.swift */,
+				6CE89893219D19CE007593AB /* InstantiableFromStoryboard.swift */,
 				6CE89863219D158C007593AB /* ViewController.swift */,
+				6CE89891219D16AB007593AB /* ButtonScrollViewController.swift */,
 				6CE89865219D158C007593AB /* Main.storyboard */,
-				6CE89868219D158E007593AB /* Assets.xcassets */,
+				6CE8988F219D15FB007593AB /* ButtonScroll.storyboard */,
 				6CE8986A219D158E007593AB /* LaunchScreen.storyboard */,
 				6CE8986D219D158E007593AB /* Info.plist */,
 			);
@@ -125,6 +183,41 @@
 			path = ButtonScrollViewSampleUITests;
 			sourceTree = "<group>";
 		};
+		6CE89895219D1A59007593AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6CE89896219D1A70007593AB /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6CE89898219D1D92007593AB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6CE89899219D1DA4007593AB /* ButtonScrollViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6CE8989B219D2323007593AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CE8989E219D2354007593AB /* ButtonView.swift */,
+				6CE8989C219D233E007593AB /* ButtonView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDC781CA420BA5C54C3E33D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE473B630112CB430DD5ABB /* Pods_ButtonScrollViewSample.framework */,
+				F39EEC96B42F4ABA63059F6F /* Pods_ButtonScrollViewSampleTests.framework */,
+				363A6A1CBB916E51724E07C2 /* Pods_ButtonScrollViewSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CE89886219D158E007593AB /* Build configuration list for PBXNativeTarget "ButtonScrollViewSample" */;
 			buildPhases = (
+				EB90B66E23DF4AAD91BED32C /* [CP] Check Pods Manifest.lock */,
 				6CE8985A219D158C007593AB /* Sources */,
 				6CE8985B219D158C007593AB /* Frameworks */,
 				6CE8985C219D158C007593AB /* Resources */,
+				E8B1B11F24F530815ABBCF6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CE89889219D158E007593AB /* Build configuration list for PBXNativeTarget "ButtonScrollViewSampleTests" */;
 			buildPhases = (
+				ECCDF6CDA53A37AC0970C2C5 /* [CP] Check Pods Manifest.lock */,
 				6CE8986E219D158E007593AB /* Sources */,
 				6CE8986F219D158E007593AB /* Frameworks */,
 				6CE89870219D158E007593AB /* Resources */,
@@ -167,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CE8988C219D158E007593AB /* Build configuration list for PBXNativeTarget "ButtonScrollViewSampleUITests" */;
 			buildPhases = (
+				62199EAD207542C79CDCB791 /* [CP] Check Pods Manifest.lock */,
 				6CE89879219D158E007593AB /* Sources */,
 				6CE8987A219D158E007593AB /* Frameworks */,
 				6CE8987B219D158E007593AB /* Resources */,
@@ -230,8 +327,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CE8986C219D158E007593AB /* LaunchScreen.storyboard in Resources */,
-				6CE89869219D158E007593AB /* Assets.xcassets in Resources */,
+				6CE89890219D15FB007593AB /* ButtonScroll.storyboard in Resources */,
+				6CE8989D219D233E007593AB /* ButtonView.xib in Resources */,
 				6CE89867219D158C007593AB /* Main.storyboard in Resources */,
+				6CC15AD221A150B0006F75F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +350,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62199EAD207542C79CDCB791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonScrollViewSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B1B11F24F530815ABBCF6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ButtonScrollViewSample/Pods-ButtonScrollViewSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButtonScrollViewSample/Pods-ButtonScrollViewSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB90B66E23DF4AAD91BED32C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonScrollViewSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCDF6CDA53A37AC0970C2C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonScrollViewSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CE8985A219D158C007593AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE89897219D1A70007593AB /* Extensions.swift in Sources */,
+				6CE89894219D19CE007593AB /* InstantiableFromStoryboard.swift in Sources */,
+				6CE89892219D16AB007593AB /* ButtonScrollViewController.swift in Sources */,
 				6CE89864219D158C007593AB /* ViewController.swift in Sources */,
 				6CE89862219D158C007593AB /* AppDelegate.swift in Sources */,
+				6CE8989A219D1DA4007593AB /* ButtonScrollViewModel.swift in Sources */,
+				6CE8989F219D2354007593AB /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +613,13 @@
 		};
 		6CE89887219D158E007593AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65624947A96DC80086296E9 /* Pods-ButtonScrollViewSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZ8V6EHCPM;
 				INFOPLIST_FILE = ButtonScrollViewSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +633,13 @@
 		};
 		6CE89888219D158E007593AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF7E9FFEFFE65F788102939 /* Pods-ButtonScrollViewSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZ8V6EHCPM;
 				INFOPLIST_FILE = ButtonScrollViewSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +653,7 @@
 		};
 		6CE8988A219D158E007593AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E060FB46B754C1FB2626B857 /* Pods-ButtonScrollViewSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +675,7 @@
 		};
 		6CE8988B219D158E007593AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8EA12A767D98FD84CA3C5A3 /* Pods-ButtonScrollViewSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +697,7 @@
 		};
 		6CE8988D219D158E007593AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D8A3AA4E157AA1E59E2616 /* Pods-ButtonScrollViewSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +718,7 @@
 		};
 		6CE8988E219D158E007593AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A0C5A904C96674BFE4B268 /* Pods-ButtonScrollViewSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
