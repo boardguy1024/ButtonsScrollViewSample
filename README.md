@@ -5,7 +5,7 @@
 ![language](https://img.shields.io/badge/language-Swift4-red.svg)
 
 ## 概要
-- UIScrollViewを使いアイコンボタンをスワイプして画面が切り切り替わるメニューをサンプル作成
+- UIScrollViewを使いアイコンボタンをタップまたはスワイプして画面が切り切り替わるメニューをサンプル作成
 - メニューアイコンは無限ループ
 
 ## スクリーンショット
