@@ -11,11 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var iconButtonAreaView: UIView!
-
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    
     var buttonScrollVC: ButtonScrollViewController!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        backgroundImageView.image = #imageLiteral(resourceName: "background")
+        backgroundImageView.contentMode = .scaleAspectFill
         initButtonScrollVC()
     }
 

@@ -25,16 +25,24 @@
                                     <constraint firstAttribute="height" constant="72" id="XDi-3G-r8O"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PfX-on-0s4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="595"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kxp-E7-ghp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="65s-rf-ig3"/>
+                            <constraint firstItem="PfX-on-0s4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ayh-6D-3ru"/>
                             <constraint firstItem="kxp-E7-ghp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Q7K-hG-ORZ"/>
+                            <constraint firstItem="PfX-on-0s4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QfC-E5-VH4"/>
                             <constraint firstItem="kxp-E7-ghp" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cfj-Cf-GRV"/>
+                            <constraint firstItem="PfX-on-0s4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-72" id="nyI-eh-0Vy"/>
+                            <constraint firstItem="PfX-on-0s4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tgO-XX-vGn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="backgroundImageView" destination="PfX-on-0s4" id="CaV-md-C2B"/>
                         <outlet property="iconButtonAreaView" destination="kxp-E7-ghp" id="gab-fL-cKb"/>
                     </connections>
                 </viewController>
